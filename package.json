@@ -1,5 +1,5 @@
 {
-  "name": "firstKey",
+  "name": "firstkey",
   "version": "0.1.0",
   "description": "Returns the first key found on an object from a list of keys",
   "keywords": [],

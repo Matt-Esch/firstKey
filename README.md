@@ -45,7 +45,7 @@ Pull the first property from a dom node that exists and reuse that property
 
 ## Installation
 
-`npm install firstKey`
+`npm install firstkey`
 
 ## Contributors
 
