@@ -1,0 +1,32 @@
+{
+  "name": "firstKey",
+  "version": "0.1.0",
+  "description": "Returns the first key found on an object from a list of keys",
+  "keywords": [],
+  "author": "Matt-Esch <matt@mattesch.info>",
+  "repository": "git://github.com/Matt-Esch/firstKey.git",
+  "main": "index",
+  "homepage": "https://github.com/Matt-Esch/firstKey",
+  "contributors": [
+    {
+      "name": "Matt Esch"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Matt-Esch/firstKey/issues",
+    "email": "matt@mattesch.info"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Matt-Esch/firstKey/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "node ./test"
+  }
+}
