@@ -21,13 +21,13 @@ Pull the first property from a dom node that exists and reuse that property
         var div = document.createElement('div'),
             text = firstKey(div, 'textContent', 'innerText', 'innerHTML');
             
-        div[text] = 'Let's use the best property for setting the text'
+        div[text] = 'Let\'s use the best property for setting the text';
     
  - Identifying the vendor-specific property to use, so that you don't set them all needlessly
  
         var divElement = document.createElement('div'),
         
-        transformProperty = firstProperty(
+        transformProperty = firstKey(
             divElement.style,
             'transform',
             'webkitTransform',
@@ -35,7 +35,7 @@ Pull the first property from a dom node that exists and reuse that property
             'oTransform',
             'msTransform');
 
-        transformOriginProperty = firstProperty(
+        transformOriginProperty = firstKey(
             divElement.style,
             'transformOrigin',
             'webkitTransformOrigin',
